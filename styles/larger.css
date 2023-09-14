@@ -1,8 +1,21 @@
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   nav ul {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
   }
-  nav ul li {
-    flex: 1 1 100%;
+
+  nav li {
+    width: auto;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer p, footer span {
+    display: inline-block;
+    padding: 2px;
   }
 }

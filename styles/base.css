@@ -167,21 +167,3 @@ footer {
   color: #e76f51;
 }
 
-@media (min-width: 768px) {
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav li {
-    width: auto;
-  }
-
-  .card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  footer p, footer span {
-    display: inline-block;
-    padding: 2px;
-  }
-}
