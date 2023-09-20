@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sigrid Müller - WDD 230 - Web Frontend Development</title>
     <meta
@@ -9,6 +9,14 @@
       content="Sigrid Müller's course assignment portal - WDD 230 - Web Frontend Development"
     />
     <meta name="author" content="Sigrid Müller Vidal" />
+    <meta property="og:title" content="WDD 230" />
+    <meta property="og:type" content="Home page" />
+    <meta
+      property="og:image"
+      content="https://www.gochile.cl/fotos/header/63391-santiago_con_torre_cc14.jpg"
+    />
+    <meta property="og:url" content="https://sigridmv.github.io/wdd230/" />
+    <link rel="icon" href="./images/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,7 +43,11 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Chamber</a></li>
-          <li><a href="./week01/chamber-site-plan.html" target="_blank">Site Plan</a></li>
+          <li>
+            <a href="./week01/chamber-site-plan.html" target="_blank"
+              >Site Plan</a
+            >
+          </li>
           <li><a href="#">Form</a></li>
         </ul>
       </nav>
@@ -47,8 +59,28 @@
           <section class="card">
             <h3>Learning Activities</h3>
             <ul>
-              <li>Week 01:<a href="./week01/holygrail.html" target="_blank">Layout</a> | <a href="./week01/media-query.html" target="_blank">Media Query</a> | <a href="https://codepen.io/SigridMV/pen/RwEVVYR" target="_blank">JS Pen</a></li>  
-              <li>Week 02:</li>
+              <li>
+                Week 01:<a href="./week01/holygrail.html" target="_blank"
+                  >Layout</a
+                >
+                |
+                <a href="./week01/media-query.html" target="_blank"
+                  >Media Query</a
+                >
+                |
+                <a
+                  href="https://codepen.io/SigridMV/pen/RwEVVYR"
+                  target="_blank"
+                  >JS Pen</a
+                >
+              </li>
+              <li>
+                Week 02:<a href="./week02/design.html" target="_blank"
+                  >Design
+                </a>
+                | <a href="#" target="_blank"></a> |
+                <a href="#" target="_blank"></a>
+              </li>
               <li>Week 03:</li>
               <li>Week 04:</li>
               <li>Week 05:</li>
@@ -67,11 +99,17 @@
 
       <!-- Footer -->
       <footer>
+        <p>&copy; <span id="currentYear"></span></p>
+        <p>Sigrid Valeria Müller Vidal</p>
         <p>
-          &copy; <span id="currentYear"></span></p>
-          <p> Sigrid Valeria Müller Vidal </p> 
-          <p> Santiago ~ Chile <img class="chile-flag" src="./images/chile_flag.jpg" alt="Bandera de Chile" ></p>
-          <br>
+          Santiago ~ Chile
+          <img
+            class="chile-flag"
+            src="./images/chile_flag.jpg"
+            alt="Bandera de Chile"
+          />
+        </p>
+        <br />
         <p id="lastModifiedDate">Last Modification:</p>
       </footer>
     </div>
