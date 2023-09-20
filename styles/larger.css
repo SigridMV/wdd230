@@ -1,13 +1,22 @@
 @media (min-width: 768px) {
-  nav ul {
+  .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     
   }
 
+  nav {
+    display: block;
+  }
+
   nav li {
-    width: auto;
+    display: block;
+    flex: 1 1 100%;
+  }
+  
+  #menu {
+    display: none;
   }
 
   .card-container {
