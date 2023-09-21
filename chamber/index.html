@@ -7,16 +7,16 @@
     <link rel="icon" href="./favicon.ico"/>
     <meta
     name="description"
-    content="Sigrid Müller's course assignment portal - WDD 230 - Web Frontend Development"
+    content="Sigrid Müller- WDD 230 - Santiago of Chile Chamber of Commerce"
   />
   <meta name="author" content="Sigrid Müller Vidal" />
-  <meta property="og:title" content="WDD 230 Home Page" />
+  <meta property="og:title" content="Santiago of Chile Chamber of Commerce" />
   <meta property="og:type" content="website">
   <meta
     property="og:image"
     content=""
   />
-  <meta property="og:url" content="" />
+  <meta property="og:url" content="https://sigridmv.github.io/wdd230/chamber/index.html" />
   
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,12 +24,73 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="./styles/normalize.css" />
+  
   <link rel="stylesheet" href="./styles/base.css" />
   <link rel="stylesheet" href="./styles/larger.css" />
    
 </head>
 <body>
+
+    <header>
+        <img src="./images/logo.jpg" alt="Logo" id="logo">
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-square-facebook" alt="Facebook" title="Facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram" alt="Instagram" title="Instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin" alt="LinkedIn" title="LinkedIn"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter" alt="Twitter" title="Twitter"></i></a>
+        </div>
+    </header>
+
+    <a id="menu" href="#" alt="menu" title="hamburger Menu"></a>
+    <nav>
+        <ul class="navigation">
+            <li ><a href="#">Home</a></li>
+            <li ><a href="#">About us</a></li>
+            <li ><a href="#">News</a></li>
+            <li ><a href="#">Partners</a></li>
+            <li ><a href="#">Contact us</a></li>         
+        </ul>
+    </nav>
+
+    <main>
+        <div class="big-hero">
+            <div class="slider-container">
+                <img src="./images/big_hero1.jpg" alt="Man holding financial chart" title="Chart" class="slide-image">
+                <img src="./images/big_hero.jpg" alt="Hands working together" title="Teamwork" class="slide-image">
+                <img src="./images/big_hero2.jpg" alt="Dashboard" title="Dashboard" class="slide-image">
+            </div>
+            <button class="slide-btn" id="prevSlide">&#9664;</button>
+            <button class="slide-btn" id="nextSlide">&#9654;</button>
+        </div>
+
+        <section class="about-us">
+            <div class="content-wrapper">
+                <div class="image-group">
+                    <img src="./images/photo6.png" alt="Three people talking" title="Communication">
+                    <img src="./images/photo1.png" alt="Woman celebrating" title="Success">
+                </div>
+        
+                <div class="title-box">
+                    <h2>About us</h2>
+                </div>
+        
+                <div class="image-group">
+                    <img src="./images/photo4.png" alt="Young man running" title="Achievements">
+                    <img src="./images/photo7.png" alt="Woman working in statistics" title="Statistics">
+                </div>
+            </div>
+        
+            <div class="benefits-box">
+                Benefits
+            </div>
+        </section>
+
+
+    </main>
+
     
+    <script src="./scripts/bigHero.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script>
+    <script src="https://kit.fontawesome.com/489e7af1a7.js" crossorigin="anonymous"></script>
 </body>
 </html>

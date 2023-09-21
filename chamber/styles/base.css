@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@100;300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* H e a d e r */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #003da6;
+}
+
+header img {
+  max-width: 50px;
+  margin-right: auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #3dae2b;
+}
+
+/* N a v i g a t i o n */
+
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  background-color: #eee;
+  color: #000;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+#menu.show::before {
+  content: "X";
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  padding: 25px;
+  margin: 20px;
+  background-color: white;
+}
+
+.navigation li {
+  margin: 0 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.navigation a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.navigation {
+  display: none;
+}
+
+.navigation a:hover {
+  color: #3dae2b;
+  text-decoration: underline;
+}
+
+.navigation.show {
+  display: block;
+}
+
+/* B I G - H E R O */
+
+.big-hero {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-image {
+  width: 100%;
+  max-height: 400px; /* o la altura que desees */
+  object-fit: cover; /* Esto recortará la imagen si excede el tamaño del contenedor, pero mantendrá su aspecto */
+  display: none; /* Las imágenes están ocultas por defecto */
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slide-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#prevSlide {
+  left: 10px;
+}
+
+#nextSlide {
+  right: 10px;
+}
+
+/* A B O U T   U S */
+
+.about-us {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Espacio uniforme entre los elementos */
+  align-items: center;
+  gap: 20px;
+}
+
+.image-group img {
+  max-width: 150px; /* Establecer un tamaño máximo para las imágenes */
+  margin: 10px;
+}
+
+.title-box {
+  background-color: white;
+  padding: 20px 40px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.title-box:hover{
+  background-color: #3dae2b;
+}
+
+.about-us h2 {
+  font-size: 24px;
+  margin: 0; /* Eliminar margen para un centrado preciso */
+}
+
+.benefits-box {
+  max-width: 500px;
+  margin: 40px auto 0; /* Margen superior para separación */
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #ccc;
+}
+
+.benefits-box:hover{
+  background-color: #00cdda;
+}
