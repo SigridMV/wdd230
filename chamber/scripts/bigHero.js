@@ -15,5 +15,5 @@ prevButton.addEventListener('click', function() {
     images[currentImageIndex].style.display = 'block';
 });
 
-// Mostrar la primera imagen al inicio
+
 images[0].style.display = 'block';
