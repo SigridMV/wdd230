@@ -171,6 +171,7 @@ nav ul {
   padding: 20px 40px;
   border: 1px solid #ccc;
   text-align: center;
+  font-size: 8px;
 }
 
 .title-box:hover{
@@ -194,4 +195,138 @@ nav ul {
 
 .benefits-box:hover{
   background-color: #00cdda;
+}
+
+/* C U R R E N T  E V E N T  S E C T I O N */
+
+.current-events {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.current-events h2 {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.event-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.event-card:hover img {
+  transform: scale(1.05); 
+}
+
+.learn-more-btn {
+  position: absolute;
+  right: 20px;
+  background-color: #003da6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.more-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 15px 30px;
+  background-color: #003da6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* W E A T H E R */
+
+.weather-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.weather-section h2 {
+  padding: 40px;
+}
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.weather-box {
+  background-color: white;
+  width: calc(33.33% - 20px); 
+  height: 200px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+/* S P O T L I G H T S */
+
+.spotlights-section {
+  padding-bottom: 30px;
+  background-color: #00000099; 
+  color: white; 
+}
+
+.spotlights-section h2{
+  padding: 20px;
+}
+
+.spotlights-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.spotlight-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 5px;
+  
+}
+
+.spotlight-card img {
+  width: 100%;
+  transition: transform 0.3s;
+  
+}
+
+.spotlight-card:hover img {
+  transform: scale(1.05); 
+}
+
+/* F O O T E R */
+
+footer{
+  padding: 10px;
+  text-align: center;
+
 }

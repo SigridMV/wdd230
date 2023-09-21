@@ -20,4 +20,24 @@
   #menu {
     display: none;
   }
+
+  .card-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .event-card {
+    width: 23%;
+    position: relative;
+  }
+
+  .weather-box {
+    width: 30%; 
+    margin-bottom: 20px; 
+  }
+
+  .weather-box:nth-child(4),
+  .weather-box:nth-child(5) {
+    width: calc(30% - 10px);
+  }
 }

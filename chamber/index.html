@@ -1,111 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Santiago of Chile Chamber of Commerce</title>
-    <link rel="icon" href="./favicon.ico"/>
+    <link rel="icon" href="./favicon.ico" />
     <meta
-    name="description"
-    content="Sigrid Müller- WDD 230 - Santiago of Chile Chamber of Commerce"
-  />
-  <meta name="author" content="Sigrid Müller Vidal" />
-  <meta property="og:title" content="Santiago of Chile Chamber of Commerce" />
-  <meta property="og:type" content="website">
-  <meta
-    property="og:image"
-    content=""
-  />
-  <meta property="og:url" content="https://sigridmv.github.io/wdd230/chamber/index.html" />
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
-  
-  <link rel="stylesheet" href="./styles/base.css" />
-  <link rel="stylesheet" href="./styles/larger.css" />
-   
-</head>
-<body>
+      name="description"
+      content="Sigrid Müller- WDD 230 - Santiago of Chile Chamber of Commerce"
+    />
+    <meta name="author" content="Sigrid Müller Vidal" />
+    <meta property="og:title" content="Santiago of Chile Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:url"
+      content="https://sigridmv.github.io/wdd230/chamber/index.html"
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/larger.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
     <header>
-        <img src="./images/logo.jpg" alt="Logo" id="logo">
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-square-facebook" alt="Facebook" title="Facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-square-instagram" alt="Instagram" title="Instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin" alt="LinkedIn" title="LinkedIn"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter" alt="Twitter" title="Twitter"></i></a>
-        </div>
+      <img src="./images/logo.jpg" alt="Logo" id="logo" />
+      <div class="social-icons">
+        <a href="#"
+          ><i
+            class="fa-brands fa-square-facebook"
+            alt="Facebook"
+            title="Facebook"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-square-instagram"
+            alt="Instagram"
+            title="Instagram"
+          ></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-linkedin" alt="LinkedIn" title="LinkedIn"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-twitter" alt="Twitter" title="Twitter"></i
+        ></a>
+      </div>
     </header>
 
+    <!-- NAV -->
     <a id="menu" href="#" alt="menu" title="hamburger Menu"></a>
     <nav>
-        <ul class="navigation">
-            <li ><a href="#">Home</a></li>
-            <li ><a href="#">About us</a></li>
-            <li ><a href="#">News</a></li>
-            <li ><a href="#">Partners</a></li>
-            <li ><a href="#">Contact us</a></li>         
-        </ul>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
     </nav>
 
+    <!-- MAIN -->
     <main>
-        <div class="big-hero">
-            <div class="slider-container">
-                <img src="./images/big_hero1.jpg" alt="Man holding financial chart" title="Chart" class="slide-image">
-                <img src="./images/big_hero.jpg" alt="Hands working together" title="Teamwork" class="slide-image">
-                <img src="./images/big_hero2.jpg" alt="Dashboard" title="Dashboard" class="slide-image">
-            </div>
-            <button class="slide-btn" id="prevSlide">&#9664;</button>
-            <button class="slide-btn" id="nextSlide">&#9654;</button>
+      <div class="big-hero">
+        <div class="slider-container">
+          <img
+            src="./images/big_hero1.jpg"
+            alt="Man holding financial chart"
+            title="Chart"
+            class="slide-image"
+          />
+          <img
+            src="./images/big_hero.jpg"
+            alt="Hands working together"
+            title="Teamwork"
+            class="slide-image"
+          />
+          <img
+            src="./images/big_hero2.jpg"
+            alt="Dashboard"
+            title="Dashboard"
+            class="slide-image"
+          />
+        </div>
+        <button class="slide-btn" id="prevSlide">&#9664;</button>
+        <button class="slide-btn" id="nextSlide">&#9654;</button>
+      </div>
+      <!-- ABOUT US SECTION -->
+      <section class="about-us">
+        <div class="content-wrapper">
+          <div class="image-group">
+            <img
+              src="./images/photo6.png"
+              alt="Three people talking"
+              title="Communication"
+            />
+            <img
+              src="./images/photo1.png"
+              alt="Woman celebrating"
+              title="Success"
+            />
+          </div>
+
+          <div class="title-box">
+            <h2>About us</h2>
+          </div>
+
+          <div class="image-group">
+            <img
+              src="./images/photo4.png"
+              alt="Young man running"
+              title="Achievements"
+            />
+            <img
+              src="./images/photo7.png"
+              alt="Woman working in statistics"
+              title="Statistics"
+            />
+          </div>
         </div>
 
-        <section class="about-us">
-            <div class="content-wrapper">
-                <div class="image-group">
-                    <img src="./images/photo6.png" alt="Three people talking" title="Communication">
-                    <img src="./images/photo1.png" alt="Woman celebrating" title="Success">
-                </div>
-        
-                <div class="title-box">
-                    <h2>About us</h2>
-                </div>
-        
-                <div class="image-group">
-                    <img src="./images/photo4.png" alt="Young man running" title="Achievements">
-                    <img src="./images/photo7.png" alt="Woman working in statistics" title="Statistics">
-                </div>
-            </div>
-        
-            <div class="benefits-box">
-                Benefits of Joining Us
-            </div>
-        </section>
+        <div class="benefits-box">Benefits of Joining Us</div>
+      </section>
 
+      <!-- CURRENT EVENT SECTION -->
+      <section class="current-events">
+        <h2>Current Events</h2>
+
+        <div class="card-container">
+          <!-- Card One -->
+          <div class="event-card">
+            <img
+              src="./images/event1.jpg"
+              alt="Lorem ipsum"
+              title="Lorem ipsum"
+            />
+            <p>
+              Exercitationem repudiandae modi atque. Ullam odit cumque cum
+              blanditiis doloribus laboriosam corrupti consequuntur.
+            </p>
+            <button class="learn-more-btn">Learn More</button>
+          </div>
+
+          <!-- Card two -->
+          <div class="event-card">
+            <img
+              src="./images/event2.jpg"
+              alt="Lorem ipsum"
+              title="Lorem ipsum"
+            />
+            <p>
+              Exercitationem repudiandae modi atque. Ullam odit cumque cum
+              blanditiis doloribus laboriosam corrupti consequuntur.
+            </p>
+            <button class="learn-more-btn">Learn More</button>
+          </div>
+
+          <!-- Card three -->
+          <div class="event-card">
+            <img
+              src="./images/event3.jpg"
+              alt="Lorem ipsum"
+              title="Lorem ipsum"
+            />
+            <p>
+              Exercitationem repudiandae modi atque. Ullam odit cumque cum
+              blanditiis doloribus laboriosam corrupti consequuntur.
+            </p>
+            <button class="learn-more-btn">Learn More</button>
+          </div>
+
+          <!-- Card four -->
+          <div class="event-card">
+            <img
+              src="./images/event4.jpg"
+              alt="Lorem ipsum"
+              title="Lorem ipsum"
+            />
+            <p>
+              Exercitationem repudiandae modi atque. Ullam odit cumque cum
+              blanditiis doloribus laboriosam corrupti consequuntur.
+            </p>
+            <button class="learn-more-btn">Learn More</button>
+          </div>
+        </div>
+
+        <button class="more-btn">More</button>
+      </section>
+
+      <!-- Weather -->
+      <section class="weather-section">
+        <h2>Weather</h2>
+
+        <div class="weather-container">
+
+          <div class="weather-box">Londres</div>
+
+          <div class="weather-box">Santiago</div>
+
+          <div class="weather-box">Dubai</div>
+
+          <div class="weather-box">New York</div>
+
+          <div class="weather-box">Madrid</div>
+        </div>
+      </section>
+
+      <!-- Spotlights section -->
+      <section class="spotlights-section">
+        <h2>Spotlights</h2>
         
+        <div class="spotlights-container">
+            
+            <div class="spotlight-card">
+                <img src="./images/photo5.png" alt="Publicidad 1" title="Publicidad 1">
+            </div>
+            
+            
+            <div class="spotlight-card">
+                <img src="./images/photo10.png" alt="Publicidad 2" title="Publicidad 2">
+            </div>
+            
+            
+            <div class="spotlight-card">
+                <img src="./images/photo11.png" alt="Publicidad 3" title="Publicidad 3">
+            </div>
+        </div>
+    </section>
 
 
     </main>
 
+    <!-- Footer -->
+    <footer>
+      <p>&copy; <span id="currentYear"></span></p>
+      <p>Sigrid Valeria Müller Vidal</p>
+      <p>WDD 230 Project - The Chamber of Commerce Home Page</p>
+      <br />
+      <p id="lastModifiedDate">Last Modification:</p>
+    </footer>
 
-      <!-- Footer -->
-      <footer>
-        <p>&copy; <span id="currentYear"></span></p>
-        <p>Sigrid Valeria Müller Vidal</p>
-        <p>
-            WDD 230 Project - The Chamber of Commerce Home Page
-        </p>
-        <br />
-        <p id="lastModifiedDate">Last Modification:</p>
-      </footer>
-
-    
     <script src="./scripts/bigHero.js"></script>
     <script src="../scripts/getDates.js"></script>
     <script src="../scripts/hamburgerMenu.js"></script>
-    <script src="https://kit.fontawesome.com/489e7af1a7.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/489e7af1a7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
