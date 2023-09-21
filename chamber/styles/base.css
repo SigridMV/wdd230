@@ -150,6 +150,7 @@ nav ul {
 .about-us {
   padding: 50px 0;
   background-color: #f4f4f4;
+  
 }
 
 .content-wrapper {
@@ -172,6 +173,7 @@ nav ul {
   border: 1px solid #ccc;
   text-align: center;
   font-size: 8px;
+  cursor: pointer;
 }
 
 .title-box:hover{
@@ -191,6 +193,7 @@ nav ul {
   text-align: center;
   font-size: 24px;
   border: 1px solid #ccc;
+  cursor: pointer;
 }
 
 .benefits-box:hover{
@@ -245,7 +248,7 @@ nav ul {
 
 .more-btn {
   display: block;
-  margin: 10px auto;
+  margin: 70px auto;
   padding: 15px 30px;
   background-color: #003da6;
   color: white;
@@ -321,6 +324,7 @@ nav ul {
 
 .spotlight-card:hover img {
   transform: scale(1.05); 
+  cursor: pointer;
 }
 
 /* F O O T E R */
