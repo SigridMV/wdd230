@@ -21,6 +21,11 @@ header {
   background-color: #003da6;
 }
 
+header h1 {
+  color: #fff;
+  margin-right: 200px;
+}
+
 header img {
   max-width: 50px;
   margin-right: auto;
