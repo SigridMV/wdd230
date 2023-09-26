@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Load Demonstration</title>
+    <meta
+      name="description"
+      content="Sigrid Müller's Lazy Loading assignment - WDD 230 - Web Frontend Development"
+    />
+    <meta name="author" content="Sigrid Müller Vidal" />
+
+    <link rel="stylesheet" href="./styles/lazyload.css">
+
+  </head>
+
+  <body>
+    <header>
+        <h1>Lazy Load Demonstration</h1>
+    </header>
+    <main>
+        
+        <picture><img src="//via.placeholder.com/400x600?text=Best+Placeholder+Ever" alt="Placeholder" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="//via.placeholder.com/400x700?text=Best+Placeholder+Ever" alt="Placeholder" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="//via.placeholder.com/400x800?text=Best+Placeholder+Ever" alt="Placeholder" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="//via.placeholder.com/400x650?text=Best+Placeholder+Ever" alt="Placeholder" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="//via.placeholder.com/400x750?text=Best+Placeholder+Ever" alt="Placeholder" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="//via.placeholder.com/400x850?text=Best+Placeholder+Ever" alt="Placeholder" loading="lazy" width="400" height="600"></picture>
+    </main>
+      <!-- Footer -->
+      <footer>
+        <p>&copy; <span id="currentYear"></span></p>
+        <p>Sigrid Valeria Müller Vidal</p>
+        </p>
+        <p id="lastModifiedDate">Last Modification:</p>
+      </footer>
+
+    <script src="./scripts/lazyload.js"></script>
+    <script src="../scripts/getDates.js"></script>
+  </body>
+</html>
