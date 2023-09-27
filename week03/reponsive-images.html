@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images Demonstration</title>
+    <meta
+      name="description"
+      content="Sigrid Müller's Responsive Images assignment - WDD 230 - Web Frontend Development"
+    />
+    <meta name="author" content="Sigrid Müller Vidal" />
+
+    <link rel="stylesheet" href="./styles/lazyload.css">
+
+  </head>
+
+  <body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+
+    <man>
+        <div class="hero">
+            <picture>
+                <source srcset="/week03/images/hero-small.webp" media=(max-width: 500px )">
+                <source media="(min-width: )" srcset="">
+                <img src="" alt="">
+            </picture>
+        </div>
+    </man>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; <span id="currentYear"></span></p>
+        <p>Sigrid Valeria Müller Vidal</p>
+        </p>
+        <p id="lastModifiedDate">Last Modification:</p>
+      </footer>
+
+    <script src="./scripts/lazyload.js"></script>
+    <script src="../scripts/getDates.js"></script>
+  </body>
+</html>

@@ -13,15 +13,21 @@
   }
 
   nav li {
-    display: block;
     flex: 1 1 100%;
   }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
 
   #menu {
     display: none;
   }
 
   .card-container {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
