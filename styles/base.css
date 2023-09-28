@@ -113,9 +113,9 @@ main {
 	
 }
 
-
 .templo-overlay img {
   width: 100%;
+  height: auto;
 }
 
 .templo-overlay p {
