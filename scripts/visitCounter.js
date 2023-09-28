@@ -4,5 +4,5 @@ document.addEventListener("DOMContentLoaded", function () {
   localStorage.setItem("pageVisits", count);
 
   const counterDiv = document.querySelector("#visitCounter");
-  counterDiv.textContent = "Número de visitas: " + count;
+  counterDiv.textContent = "Visit Count: " + count;
 });
