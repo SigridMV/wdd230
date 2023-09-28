@@ -35,6 +35,7 @@ header {
 
 header img {
   width: 100px;
+  height: auto;
   padding: 10px;
   margin-right: 20px;
   vertical-align: middle;
