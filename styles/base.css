@@ -106,6 +106,24 @@ main {
   flex-grow: 1;
 }
 
+.templo-overlay {
+  margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	
+}
+
+
+.templo-overlay img {
+  width: 100%;
+}
+
+.templo-overlay p {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
 main h2 {
   text-align: center;
   padding: 5px 0;
@@ -167,6 +185,20 @@ main li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#visitCounter {
+  padding: 10px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.map{
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+
 }
 
 
