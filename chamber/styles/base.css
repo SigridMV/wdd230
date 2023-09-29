@@ -22,12 +22,27 @@ header {
 
 header h1 {
   color: #fff;
-  margin-right: 200px;
+  margin: 0;
+  
+}
+
+header #logo {
+  max-width: 50px;
+  margin-right: 1rem; 
 }
 
 header img {
   max-width: 50px;
   margin-right: auto;
+}
+
+.iconos {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.iconos li {
+  list-style: none;
 }
 
 /* N a v i g a t i o n */
@@ -377,6 +392,8 @@ footer {
   align-items: center; 
   justify-content: center; 
 }
+
+
 
 
 

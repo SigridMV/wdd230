@@ -60,6 +60,11 @@
     grid-column: 2/3; /* La columna de imágenes ocupa la segunda columna */
   }
 
+  .image-column img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
 
 
 }
