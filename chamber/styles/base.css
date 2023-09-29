@@ -156,70 +156,49 @@ nav ul {
 
 /* A B O U T   U S */
 
-.about-us {
-  padding: 50px 0;
-  background-color: #f4f4f4;
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffff;
+  padding: 50px;
 }
 
-.content-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+.image-group {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .image-group img {
-  max-width: 150px;
-  margin: 10px;
+  max-width: 300px; /* Aumentado para mejor visualización en móviles */
+  margin: 5px;
 }
 
 .title-box {
+  width: 100%; 
   background-color: white;
-  padding: 20px 40px;
-  border: 1px solid #ccc;
+  margin: 20px 0;
+  border: 2px solid #ccc;
   text-align: center;
-  font-size: 8px;
   cursor: pointer;
 }
 
 .title-box:hover {
   background-color: #3dae2b;
-}
-
-.about-us h2 {
-  font-size: 24px;
-  margin: 0;
-}
-
-.discover-box {
-  max-width: 500px;
-  margin: 40px auto 0;
-  padding: 20px;
-  background-color: white;
-  text-align: center;
-  font-size: 24px;
-  border: 1px solid #ccc;
-  cursor: pointer;
-}
-
-.discover-box a {
-  text-decoration: none;
-  color: #000;
-}
-
-.discover-box:hover {
-  background-color: #00cdda;
-}
-.discover-box a:hover {
   color: #fff;
+}
+
+.title-box h2 {
+  font-size: 24px;
+  margin: 10px;
+  
 }
 
 /* C U R R E N T  E V E N T  S E C T I O N */
 
 .current-events {
-  padding: 50px;
+  padding: 10px;
   background-color: #f4f4f4;
 }
 

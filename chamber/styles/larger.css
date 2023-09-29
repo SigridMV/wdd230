@@ -30,6 +30,29 @@
     margin: 0 auto;
   }
 
+  .content-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-group {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+
+  .image-group img {
+    width: 100%;
+    
+  }
+
+  .title-box {
+    max-width: 200px; /* Puede ajustar este valor según sus necesidades */
+    width: 100%;
+    margin: 0 10px;
+  }
+
   .card-container {
     display: flex;
     flex-direction: row;
