@@ -24,19 +24,33 @@
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/larger.css" />
-
-
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <img src="./images/logo.jpg" alt="Logo" id="logo" />
+      <img src="./images/logo.webp" alt="Logo" id="logo" />
       <h1 class="web-name">Santiago of Chile Chamber of Commerce</h1>
       <ul class="iconos">
-        <li><a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="facebook logo"></a></li>
-        <li><a href="https://www.twitter.com/" target="_blank"><img src="./images/twitter.png" alt="twitter logo"></a></li>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              src="./images/facebook.webp"
+              alt="facebook logo"
+              width="32"
+              height="32"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><img
+              src="./images/twitter.webp"
+              alt="twitter logo"
+              width="32"
+              height="32"
+          /></a>
+        </li>
       </ul>
-    </header> 
+    </header>
 
     <!-- NAV -->
     <a id="menu" href="#" title="hamburger Menu"></a>
@@ -54,39 +68,73 @@
     <main>
       <div class="big-hero">
         <div class="slider-container">
-          <img
-            src="./images/big_hero1.jpg"
-            alt="Man holding financial chart"
-            title="Chart"
-            class="slide-image"
-          />
-          <img
-            src="./images/big_hero.jpg"
-            alt="Hands working together"
-            title="Teamwork"
-            class="slide-image"
-          />
-          <img
-            src="./images/big_hero2.jpg"
-            alt="Dashboard"
-            title="Dashboard"
-            class="slide-image"
-          />
+          <div class="slide">
+            <picture>
+              <source
+                srcset="images/big-hero1-large.webp"
+                media="(min-width: 769px)"
+              />
+              <source
+                srcset="images/big-hero1-small.webp"
+                media="(max-width: 768px)"
+              />
+              <img
+                src="./images/big-hero1-large.webp"
+                alt="Man holding financial chart"
+                title="Chart"
+              />
+            </picture>
+          </div>
+
+          <div class="slide">
+            <picture>
+              <source
+                srcset="images/big-hero-large.webp"
+                media="(min-width: 769px)"
+              />
+              <source
+                srcset="images/big-hero-small.webp"
+                media="(max-width: 768px)"
+              />
+              <img
+                src="./images/big-hero-large.webp"
+                alt="Hands working together"
+                title="Teamwork"
+              />
+            </picture>
+          </div>
+          <div class="slide">
+            <picture>
+              <source
+                srcset="images/big-hero2-large.webp"
+                media="(min-width: 769px)"
+              />
+              <source
+                srcset="images/big-hero2-small.webp"
+                media="(max-width: 768px)"
+              />
+              <img
+                src="./images/big-hero2-large.webp"
+                alt="Dashboard"
+                title="Dashboard"
+              />
+            </picture>
+          </div>
+          <button class="slide-btn" id="prevSlide">&#9664;</button>
+          <button class="slide-btn" id="nextSlide">&#9654;</button>
         </div>
-        <button class="slide-btn" id="prevSlide">&#9664;</button>
-        <button class="slide-btn" id="nextSlide">&#9654;</button>
       </div>
       <!-- ABOUT US SECTION -->
       <section class="about-us">
         <div class="content-wrapper">
           <div class="image-group">
             <img
-              src="./images/photo6.png"
+              src="./images/photo5.webp"
               alt="Three people talking"
               title="Communication"
             />
             <img
-              src="./images/photo1.png"
+              src="./images/photo1.webp"
               alt="Woman celebrating"
               title="Success"
             />
@@ -99,12 +147,12 @@
 
           <div class="image-group">
             <img
-              src="./images/photo4.png"
+              src="./images/photo4.webp"
               alt="Young man running"
               title="Achievements"
             />
             <img
-              src="./images/photo7.png"
+              src="./images/photo7.webp"
               alt="Woman working in statistics"
               title="Statistics"
             />
@@ -113,7 +161,7 @@
 
         <div class="discover-box">
           <a href="./discover.html" class="discover-btn">Discover</a>
-      </div>
+        </div>
       </section>
 
       <!-- CURRENT EVENT SECTION -->
@@ -124,7 +172,7 @@
           <!-- Card One -->
           <div class="event-card">
             <img
-              src="./images/event1.jpg"
+              src="./images/event1.webp"
               alt="Lorem ipsum"
               title="Lorem ipsum"
             />
@@ -138,7 +186,7 @@
           <!-- Card two -->
           <div class="event-card">
             <img
-              src="./images/event2.jpg"
+              src="./images/event2.webp"
               alt="Lorem ipsum"
               title="Lorem ipsum"
             />
@@ -152,7 +200,7 @@
           <!-- Card three -->
           <div class="event-card">
             <img
-              src="./images/event3.jpg"
+              src="./images/event3.webp"
               alt="Lorem ipsum"
               title="Lorem ipsum"
             />
@@ -166,7 +214,7 @@
           <!-- Card four -->
           <div class="event-card">
             <img
-              src="./images/event4.jpg"
+              src="./images/event4.webp"
               alt="Lorem ipsum"
               title="Lorem ipsum"
             />
@@ -205,7 +253,7 @@
         <div class="spotlights-container">
           <div class="spotlight-card">
             <img
-              src="./images/photo5.png"
+              src="./images/photo5.webp"
               alt="Publicidad 1"
               title="Publicidad 1"
             />
@@ -213,7 +261,7 @@
 
           <div class="spotlight-card">
             <img
-              src="./images/photo10.png"
+              src="./images/photo10.webp"
               alt="Publicidad 2"
               title="Publicidad 2"
             />
@@ -221,7 +269,7 @@
 
           <div class="spotlight-card">
             <img
-              src="./images/photo11.png"
+              src="./images/photo11.webp"
               alt="Publicidad 3"
               title="Publicidad 3"
             />

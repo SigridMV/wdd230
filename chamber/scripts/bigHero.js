@@ -1,19 +1,33 @@
-let currentImageIndex = 0;
-const images = document.querySelectorAll('.slide-image');
-const nextButton = document.getElementById('nextSlide');
-const prevButton = document.getElementById('prevSlide');
+document.addEventListener("DOMContentLoaded", function () {
+  let currentImageIndex = 0;
+  const pictureContainers = document.querySelectorAll(
+    ".slider-container .slide"
+  );
+  const nextButton = document.getElementById("nextSlide");
+  const prevButton = document.getElementById("prevSlide");
 
-nextButton.addEventListener('click', function() {
-    images[currentImageIndex].style.display = 'none';
-    currentImageIndex = (currentImageIndex + 1) % images.length;
-    images[currentImageIndex].style.display = 'block';
+  function hideAllImages() {
+    pictureContainers.forEach((picture) => {
+      picture.classList.remove("show");
+    });
+  }
+
+  function showCurrentImage() {
+    hideAllImages();
+    pictureContainers[currentImageIndex].classList.add("show");
+  }
+
+  nextButton.addEventListener("click", function () {
+    currentImageIndex = (currentImageIndex + 1) % pictureContainers.length;
+    showCurrentImage();
+  });
+
+  prevButton.addEventListener("click", function () {
+    currentImageIndex =
+      (currentImageIndex - 1 + pictureContainers.length) %
+      pictureContainers.length;
+    showCurrentImage();
+  });
+
+  showCurrentImage();
 });
-
-prevButton.addEventListener('click', function() {
-    images[currentImageIndex].style.display = 'none';
-    currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-    images[currentImageIndex].style.display = 'block';
-});
-
-
-images[0].style.display = 'block';

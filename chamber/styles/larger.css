@@ -25,6 +25,11 @@
     display: none;
   }
 
+  .big-hero {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   .card-container {
     display: flex;
     flex-direction: row;
@@ -48,23 +53,20 @@
 
   .main-discover {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* Esto le da más espacio al aside */
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
   }
 
   aside {
-    grid-column: 1/2; /* El 'aside' ocupa la primera columna */
+    grid-column: 1/2;
   }
-  
+
   .image-column {
-    grid-column: 2/3; /* La columna de imágenes ocupa la segunda columna */
+    grid-column: 2/3;
   }
 
   .image-column img:hover {
     transform: scale(1.05);
     cursor: pointer;
   }
-
-
-
 }
