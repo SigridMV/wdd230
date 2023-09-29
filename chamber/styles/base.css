@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: white;
   color: black;
 }
@@ -51,9 +51,7 @@ header img {
 }
 
 nav ul {
-  display: flex;
   list-style-type: none;
-  flex-direction: column;
   padding: 25px;
   margin: 20px;
   background-color: white;
@@ -103,9 +101,9 @@ nav ul {
 
 .slide-image {
   width: 100%;
-  max-height: 400px; 
-  object-fit: cover; 
-  display: none; 
+  max-height: 400px;
+  object-fit: cover;
+  display: none;
 }
 
 .slide-btn {
@@ -138,20 +136,19 @@ nav ul {
 .about-us {
   padding: 50px 0;
   background-color: #f4f4f4;
-  
 }
 
 .content-wrapper {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
 .image-group img {
-  max-width: 150px; 
+  max-width: 150px;
   margin: 10px;
 }
 
@@ -164,18 +161,18 @@ nav ul {
   cursor: pointer;
 }
 
-.title-box:hover{
+.title-box:hover {
   background-color: #3dae2b;
 }
 
 .about-us h2 {
   font-size: 24px;
-  margin: 0; 
+  margin: 0;
 }
 
 .benefits-box {
   max-width: 500px;
-  margin: 40px auto 0; 
+  margin: 40px auto 0;
   padding: 20px;
   background-color: white;
   text-align: center;
@@ -184,7 +181,7 @@ nav ul {
   cursor: pointer;
 }
 
-.benefits-box:hover{
+.benefits-box:hover {
   background-color: #00cdda;
 }
 
@@ -201,7 +198,7 @@ nav ul {
 
 .card-container {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -220,7 +217,7 @@ nav ul {
 }
 
 .event-card:hover img {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .learn-more-btn {
@@ -258,33 +255,33 @@ nav ul {
 
 .weather-container {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 20px; 
-  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 .weather-box {
   background-color: white;
-  width: calc(33.33% - 20px); 
-  height: 200px; 
+  width: calc(33.33% - 20px);
+  height: 200px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
 }
 
 /* S P O T L I G H T S */
 
 .spotlights-section {
   padding-bottom: 30px;
-  background-color: #00000099; 
-  color: white; 
+  background-color: #00000099;
+  color: white;
 }
 
-.spotlights-section h2{
+.spotlights-section h2 {
   padding: 20px;
 }
 
@@ -301,24 +298,49 @@ nav ul {
   border-radius: 10px;
   overflow: hidden;
   margin: 5px;
-  
 }
 
 .spotlight-card img {
   width: 100%;
   transition: transform 0.3s;
-  
 }
 
 .spotlight-card:hover img {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   cursor: pointer;
 }
 
 /* F O O T E R */
 
-footer{
+footer {
   padding: 10px;
   text-align: center;
-
+  background-color: #003da6;
+  color: #fff;
 }
+
+/* DISCOVER PAGE */
+
+.info-box,
+#ad {
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+}
+
+.main-discover {
+  display: block; 
+}
+
+.info-box,
+.ad,
+#calendar,
+.image-column {
+  width: 100%; 
+}
+
+
+
