@@ -170,7 +170,7 @@ nav ul {
   margin: 0;
 }
 
-.benefits-box {
+.discover-box {
   max-width: 500px;
   margin: 40px auto 0;
   padding: 20px;
@@ -181,8 +181,17 @@ nav ul {
   cursor: pointer;
 }
 
-.benefits-box:hover {
+.discover-box a {
+  text-decoration: none;
+  color: #000;
+}
+
+.discover-box:hover {
   background-color: #00cdda;
+}
+.discover-box a:hover {
+  color: #fff;
+  
 }
 
 /* C U R R E N T  E V E N T  S E C T I O N */
@@ -321,6 +330,19 @@ footer {
 
 /* DISCOVER PAGE */
 
+#visitMessage{
+  font-size:22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #003da6;
+  margin: 20px;
+  padding: 10px;
+}
+
 .info-box,
 #ad {
     background-color: #f4f4f4;
@@ -333,6 +355,8 @@ footer {
 
 .main-discover {
   display: block; 
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .info-box,
@@ -340,7 +364,21 @@ footer {
 #calendar,
 .image-column {
   width: 100%; 
+
 }
+
+#calendar {
+  margin-bottom: 10px;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+
 
 
 
