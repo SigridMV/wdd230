@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmation Page</title>
+    <meta
+      name="description"
+      content="Sigrid Müller's Confirmation - WDD 230 - Web Frontend Development"
+    />
+    <meta name="author" content="Sigrid Müller Vidal" />
+
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/record.css">
+    
+
+  </head>
+
+  <body>
+    <header>
+        <img
+          src="../images/profile.webp"
+          alt="Sigrid Müller's profile picture"
+          title="Profile picture Sigrid Müller"
+          width="200"
+          height="200"
+        />
+        <h1>Sigrid Valeria Müller Vidal</h1>
+        <button id="darkModeToggle">🌙</button>
+      </header>
+
+      <!-- Navigation -->
+      <a id="menu" href="#" title="hamburger Menu"></a>
+      <nav>
+        <ul class="navigation">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./chamber/index.html" target="_blank">Chamber</a></li>
+          <li>
+            <a href="./week01/chamber-site-plan.html" target="_blank"
+              >Site Plan</a
+            >
+          </li>
+          <li><a href="./form.html">Form</a></li>
+        </ul>
+      </nav>
+
+    <main>
+
+        <h2 id="thanksHeader"></h2>
+        <p id="thanksMessage"></p>
+
+    </main>
+
+
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; <span id="currentYear"></span></p>
+        <p>Sigrid Valeria Müller Vidal</p>
+        </p>
+        <p id="lastModifiedDate">Last Modification:</p>
+      </footer>
+
+    <script src="./scripts/confirmationPage.js"></script>
+    <script src="../scripts/getDates.js"></script>
+    <script src="../scripts/darkMode.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script>
+  </body>
+</html>
