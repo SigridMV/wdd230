@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <meta
@@ -10,90 +10,116 @@
     />
     <meta name="author" content="Sigrid Müller Vidal" />
 
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/larger.css">
-    <link rel="stylesheet" href="./styles/form.css">
-    
-
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/larger.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
   </head>
 
   <body>
     <header>
-        <img
-          src="../images/profile.webp"
-          alt="Sigrid Müller's profile picture"
-          title="Profile picture Sigrid Müller"
-          width="200"
-          height="200"
-        />
-        <h1>Sigrid Valeria Müller Vidal</h1>
-        <button id="darkModeToggle">🌙</button>
-      </header>
+      <img
+        src="./images/profile.webp"
+        alt="Sigrid Müller's profile picture"
+        title="Profile picture Sigrid Müller"
+        width="200"
+        height="200"
+      />
+      <h1>Sigrid Valeria Müller Vidal</h1>
+      <button id="darkModeToggle">🌙</button>
+    </header>
 
-      <!-- Navigation -->
-      <a id="menu" href="#" title="hamburger Menu"></a>
-      <nav>
-        <ul class="navigation">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./chamber/index.html" target="_blank">Chamber</a></li>
-          <li>
-            <a href="./week01/chamber-site-plan.html" target="_blank"
-              >Site Plan</a
-            >
-          </li>
-          <li><a href="./form.html">Form</a></li>
-        </ul>
-      </nav>
-
-
+    <!-- Navigation -->
+    <a id="menu" href="#" title="hamburger Menu"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./chamber/index.html" target="_blank">Chamber</a></li>
+        <li>
+          <a href="./week01/chamber-site-plan.html" target="_blank"
+            >Site Plan</a
+          >
+        </li>
+        <li><a href="./form.html">Form</a></li>
+      </ul>
+    </nav>
 
     <main>
- <!-- Form -->
-        <form method="get" action="./record.html" onsubmit="storeData()">
-            <fieldset>
-                <legend>Form</legend>
-                <label class="top">Username*<input type="text" id="username" name="fname" required></label>
-                <label class="top">Password*<input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$" title="Alpha-numeric at least 8 characters long"></label>
-                <label class="top">Confirm Password*<input type="password" id="confirmPassword" name="confirmPassword" required pattern="^[a-zA-Z0-9]{8,}$" title="Alpha-numeric at least 8 characters long"></label>
-                <label class="top">Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
-            </fieldset>
+      <!-- Form -->
+      <form method="get" action="./record.html" onsubmit="storeData()">
+        <fieldset>
+          <legend>Form</legend>
+          <label class="top"
+            >Username*<input type="text" id="username" name="fname" required
+          /></label>
+          <label class="top"
+            >Password*<input
+              type="password"
+              id="password"
+              name="password"
+              required
+              pattern="^[a-zA-Z0-9]{8,}$"
+              title="Alpha-numeric at least 8 characters long"
+          /></label>
+          <label class="top"
+            >Confirm Password*<input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              required
+              pattern="^[a-zA-Z0-9]{8,}$"
+              title="Alpha-numeric at least 8 characters long"
+          /></label>
+          <label class="top"
+            >Email*<input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              title="Please enter a valid email address"
+          /></label>
+        </fieldset>
 
-            <fieldset>
-                <legend>Page Rating</legend>
-                <label for="r">Select a rating:</label>
-                <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" oninput="updateRangeValue(value)">      
-                <div id="tickmarks">
-                    <span>1</span>
-                    <span>2</span>
-                    <span>3</span>
-                    <span>4</span>
-                    <span>5</span>
-                    <span>6</span>
-                    <span>7</span>
-                    <span>8</span>
-                    <span>9</span>
-                    <span>10</span>
-                </div>
-                <div id="rangevalue">1</div>
-            </fieldset>
+        <fieldset>
+          <legend>Page Rating</legend>
+          <label for="r">Select a rating:</label>
+          <input
+            type="range"
+            id="r"
+            name="r"
+            min="1"
+            max="10"
+            value="0"
+            step="1"
+            list="rangevalues"
+          />
+          <datalist id="rangevalues">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </datalist>
+          <div id="rangevalue">1</div>
+        </fieldset>
 
-            <input type="submit" value="Send my answers" class="submitBtn">
-
-        </form>
-        
-
+        <input type="submit" value="Send my answers" class="submitBtn" />
+      </form>
     </main>
 
-
-
-      <!-- Footer -->
-      <footer>
-        <p>&copy; <span id="currentYear"></span></p>
-        <p>Sigrid Valeria Müller Vidal</p>
-        <p id="lastModifiedDate">Last Modification:</p>
-      </footer>
-
+    <!-- Footer -->
+    <footer>
+      <p>&copy; <span id="currentYear"></span></p>
+      <p>Sigrid Valeria Müller Vidal</p>
+      <p id="lastModifiedDate">Last Modification:</p>
+    </footer>
 
     <script src="./scripts/confirmationPage.js"></script>
     <script src="./scripts/confirmPassword.js"></script>

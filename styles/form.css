@@ -21,31 +21,6 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
-
-#r {
-	width: 100%;
-    padding: 10px;
-	margin-bottom: 1rem;
-}
-
-#rangevalue {
-    font-size:18px;
-    color: #2c3e50;
-    text-align: center;
-}
-
-#tickmarks {
-    display: flex;
-    justify-content: space-between;  /* Distribuye los números equitativamente */
-    padding: 0 5px;  /* Un pequeño padding para alinearlo mejor con el slider */
-    position: relative;
-}
-
-#tickmarks span {
-    position: relative;
-    top: -15px;  /* Lleva los números un poco hacia arriba para que se alineen con el slider */
-    font-size: 0.8rem;
-}
 /*----------- FORM --------------*/
 
 form fieldset {
@@ -56,7 +31,7 @@ form fieldset {
 }
 
 form legend {
-    color: #445ba9;
+    color: #2c3e50;
     margin: 0 1rem; 
     padding: 0 .5rem;
 }
@@ -104,6 +79,32 @@ form label.top input:required{
 
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+#r {
+	width: 100%;
+    padding: 10px;
+	margin-bottom: 1rem;
+}
+
+#rangevalue {
+    font-size:2rem;
+    margin-top: 1rem;
+    color: #2c3e50;
+    text-align: center;
+    margin: 0 0 0 15px;
+}
+
+#rangevalues {
+	display: flex;
+    margin: 0 0 0 15px;
+	width: 100%;
+}
+
+
+#rangevalues option {
+	flex: 1 1 auto;
+    
 }
 
 footer p {

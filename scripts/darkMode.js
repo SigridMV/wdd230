@@ -6,7 +6,7 @@ darkModeToggle.addEventListener('click', () => {
     localStorage.setItem('dark-mode', isDarkMode ? 'enabled' : 'disabled');
 });
 
-// Automatically set dark mode if it was previously enabled
+
 if (localStorage.getItem('dark-mode') === 'enabled') {
     document.body.classList.add('dark-mode');
     darkModeToggle.textContent = '☀️';

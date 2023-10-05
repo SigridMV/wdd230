@@ -8,7 +8,7 @@ hambutton.addEventListener('click', () => {
 
 window.addEventListener('resize', function() {
   if (window.innerWidth >= 768) {
-      mainnav.classList.remove('show'); // Asegura que el menú esté visible
-      hambutton.classList.remove('show'); // Oculta el botón de hamburguesa
+      mainnav.classList.remove('show'); 
+      hambutton.classList.remove('show'); 
   }
 });
