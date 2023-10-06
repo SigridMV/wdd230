@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Santiago of Chile Chamber of Commerce Join</title>
     <link rel="icon" href="./favicon.ico" />
@@ -76,60 +76,109 @@
       <form method="get" action="./thankyou.html">
         <fieldset>
           <legend class="legend-form">Membership Form</legend>
-           <!-- Applicant's first name -->
-          <label class="top">First Name*<input type="text" id="name" name="fname" required/></label>
-          
-           <!-- Applicant's last name -->
-          <label class="top">Last Name*<input type="text" id="lastName" name="lastName" required/></label>
-          
+          <!-- Applicant's first name -->
+          <label class="top"
+            >First Name*<input type="text" id="name" name="fname" required
+          /></label>
+
+          <!-- Applicant's last name -->
+          <label class="top"
+            >Last Name*<input
+              type="text"
+              id="lastName"
+              name="lastName"
+              required
+          /></label>
+
           <!-- Applicant's title/position -->
-          <label class="top">Title/Position*<input type="text" id="position" name="position" pattern="^[a-zA-Z0-9]{8,}$" title="alpha characters, hyphens, and spaces with a minimum of 7 characters "/></label>
-          
+          <label class="top"
+            >Title/Position*<input
+              type="text"
+              id="position"
+              name="position"
+              pattern="^[a-zA-Z0-9]{8,}$"
+              title="alpha characters, hyphens, and spaces with a minimum of 7 characters "
+          /></label>
+
           <!-- Email Address -->
-          <label class="top">Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"/></label>
-          
+          <label class="top"
+            >Email*<input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              title="Please enter a valid email address"
+          /></label>
+
           <!-- Mobile phone number -->
-          <label class="top">Mobile Phone*<input type="tel" id="phone" name="phone" required/></label>
+          <label class="top"
+            >Mobile Phone*<input type="tel" id="phone" name="phone" required
+          /></label>
 
           <!-- Business/Organization's name -->
-          <label class="top">Organization Name*<input type="text" id="orgName" name="orgName" required/></label>
+          <label class="top"
+            >Organization Name*<input
+              type="text"
+              id="orgName"
+              name="orgName"
+              required
+          /></label>
 
-           <!-- Membership Level Selection -->
+          <!-- Membership Level Selection -->
 
-           <label class="top">Membership Level
+          <label class="top"
+            >Membership Level
             <select id="membershipLevel" name="membershipLevel">
-                <option value="">Please Select a membership level &#9662;</option>
-                <option value="np">NP Membership</option>
-                <option value="bronze">Bronze Membership</option>
-                <option value="silver">Silver Membership</option>
-                <option value="gold">Gold Membership</option>
+              <option value="">Please Select a membership level &#9662;</option>
+              <option value="np">NP Membership</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
             </select>
-        </label>
+          </label>
 
-        <!-- Business/Organization's description -->
-        
-        <label class="top">Organization Description<textarea id="orgDescription" name="orgDescription" oninput="checkCharacterCount(this)"></textarea>
-          <p id="charCount">0/150 characters</p></label>
-      
-        <!-- Timestamp -->
-        <label class="top"> <input type="hidden" id="timestamp" name="timestamp"></label>
-        
+          <!-- Business/Organization's description -->
 
-        <input type="submit" value="Send Membership Form" class="submitBtn" />
+          <label class="top"
+            >Organization Description<textarea
+              id="orgDescription"
+              name="orgDescription"
+              oninput="checkCharacterCount(this)"
+            ></textarea>
+          </label>
+          <p id="charCount">0/150 characters</p>
+
+          <!-- Timestamp -->
+          <label class="top">
+            <input type="hidden" id="timestamp" name="timestamp"
+          /></label>
+
+          <input type="submit" value="Send Membership Form" class="submitBtn" />
+        </fieldset>
       </form>
-    </fieldset>
       <!-- Membership level benefits -->
-       <div class="benefits">
+      <div class="benefits">
         <h3>Membership Benefits</h3>
         <ul>
-            <li><strong>NP Membership:</strong> For non-profit organizations. No fee.</li>
-            <li><strong>Bronze Membership:</strong> Basic events and advertising.</li>
-            <li><strong>Silver Membership:</strong> Special events, advanced training, and priority advertising.</li>
-            <li><strong>Gold Membership:</strong> Exclusive events, premium training, and spotlight advertising.</li>
+          <li>
+            <strong>NP Membership:</strong> For non-profit organizations. No
+            fee.
+          </li>
+          <li>
+            <strong>Bronze Membership:</strong> Basic events and advertising.
+          </li>
+          <li>
+            <strong>Silver Membership:</strong> Special events, advanced
+            training, and priority advertising.
+          </li>
+          <li>
+            <strong>Gold Membership:</strong> Exclusive events, premium
+            training, and spotlight advertising.
+          </li>
         </ul>
-       </div>
-
-      
+      </div>
     </main>
 
     <!-- Footer -->
