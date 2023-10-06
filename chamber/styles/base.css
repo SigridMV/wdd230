@@ -397,7 +397,7 @@ footer {
 
 form fieldset {
   margin: 1rem 2rem 2rem 0;
-  bottom: 1px solid #003da6;
+  border: 1px solid #003da6;
   border-radius: 10px;
   
 }
@@ -451,6 +451,11 @@ form label.top input:required{
 
 form label.top input:required:valid {
   border-left: green solid 6px;
+}
+
+#charCount{
+  color: #9c2c13;
+  font-size: .8rem;
 }
 
 #orgDescription {
