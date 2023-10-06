@@ -1,13 +1,15 @@
 function storeData() {
-    const username = document.querySelector("#username").value;
+    const username = document.querySelector("#name").value;
+    const userLastName = document.querySelector("#lastName").value;
     const email = document.querySelector("#email").value;
 
-    sessionStorage.setItem('username', username);
+    sessionStorage.setItem('name', username);
+    sessionStorage.setItem('lastName', userLastName);
     sessionStorage.setItem('email', email);
 }
 
 function storeData() {
-    const username = document.querySelector("#username").value;
+    const username = document.querySelector("#name").value;
     const email = document.querySelector("#email").value;
 
     sessionStorage.setItem('username', username);

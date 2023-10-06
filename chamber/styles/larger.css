@@ -44,7 +44,6 @@
 
   .image-group img {
     width: 100%;
-    
   }
 
   .title-box {
@@ -91,5 +90,18 @@
   .image-column img:hover {
     transform: scale(1.05);
     cursor: pointer;
+  }
+
+  form label.sbs {
+    padding: 0.4rem 0;
+  }
+
+  form {
+    padding-left: 20%;
+  }
+
+  .benefits {
+    flex: 1;
+    margin-right: 300px;
   }
 }
