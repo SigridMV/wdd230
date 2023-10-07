@@ -369,7 +369,37 @@ footer {
 
 #calendar {
   margin-bottom: 10px;
+  color: #003da6;
+  background-color:#fff;
 }
+
+
+
+.fc .fc-button-primary{
+  color: #ffff;
+  background-color: #003da6;
+}
+
+.fc .fc-button:disabled {
+  opacity: 1;
+}
+
+.fc .fc-day-other .fc-daygrid-day-top {
+  opacity: 1;
+}
+
+.fc-daygrid-day-bg{
+  color: #ffff;
+  background-color: #003da6;
+}
+
+.fc-today-bg{
+  color: #ffff;
+  background-color: #003da6;
+}
+
+
+
 
 .image-column {
   display: flex;
