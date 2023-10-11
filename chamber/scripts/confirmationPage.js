@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function storeData(event) {
     event.preventDefault(); 
 
-    const username = document.querySelector("#name").value;
+    const username = document.querySelector("#firstName").value;
     const userLastName = document.querySelector("#lastName").value;
     const email = document.querySelector("#email").value;
     const timestamp = document.querySelector("#timestamp").value;
