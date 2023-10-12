@@ -1,0 +1,28 @@
+{
+  "familyName": "Smith",
+  "dateMovedIntoWard": "2015-03-11",
+  "numberOfPeople": 4,
+  "visitedByBishopric": true,
+  "familyMembers": [
+    {
+      "name": "Paul Smith",
+      "gender": "Male",
+      "birthdate": "1988-10-11"
+    },
+    {
+      "name": "Valeria Smith",
+      "gender": "Female",
+      "birthdate": "1985-07-20"
+    },
+    {
+      "name": "Leonardo Smith",
+      "gender": "Male",
+      "birthdate": "2010-05-15"
+    },
+    {
+      "name": "Antonia Smith",
+      "gender": "Female",
+      "birthdate": "2012-12-12"
+    }
+  ]
+}
