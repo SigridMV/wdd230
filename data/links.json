@@ -1,78 +1,63 @@
 {
   "weeks": [
     {
-      "week": "Week 1",
+      "week": "Week 01",
       "links": [
-        {
-          "url": "week01/holygrail.html",
-          "title": "HolyGrail Activity"
-        },
-        {
-          "url": "week01/media-query.html",
-          "title": "Media Query Activity"
-        },
-
-        {
-          "url": "week01/chamber-site-plan.html",
-          "title": "Chamber Site Plan"
-        }
+        { "title": "Layout", "url": "./week01/holygrail.html" },
+        { "title": "Media Query", "url": "./week01/media-query.html" },
+        { "title": "JS Pen", "url": "https://codepen.io/SigridMV/pen/RwEVVYR" }
       ]
     },
     {
-      "week": "Week 2",
+      "week": "Week 02",
       "links": [
+        { "title": "Design", "url": "./week02/design.html" },
         {
-          "url": "week02/bom.html",
-          "title": "Bom Activity"
+          "title": "\"Hamburger\" Menu",
+          "url": "https://codepen.io/SigridMV/pen/ExGbdKy"
         },
-
-        {
-          "url": "week02/design.html",
-          "title": "Design Activity"
-        }
+        { "title": "DOM", "url": "./week02/bom.html" }
       ]
     },
     {
-      "week": "Week 3",
+      "week": "Week 03",
       "links": [
-        {
-          "url": "week03/bom.html",
-          "title": "Bom Activity"
-        },
-
-        {
-          "url": "week03/lazyload.html",
-          "title": "Lazy Load Activity"
-        },
-
-        {
-          "url": "week03/responsive-imagenes.html",
-          "title": "Responsive- imagenes Activity"
-        }
+        { "title": "WebP", "url": "./week03/images/paisaje.webp" },
+        { "title": "Lazy Load", "url": "./week03/lazyload.html" },
+        { "title": "Responsive", "url": "./week03/reponsive-images.html" },
+        { "title": "Web Storage API", "url": "./week03/bom.html" }
       ]
     },
     {
-      "week": "Week 4",
+      "week": "Week 04",
       "links": [
         {
-          "url": "week04/tablebuild.html",
-          "title": "Table build Activity"
-        }
+          "title": "Pseudo-Classes",
+          "url": "https://codepen.io/SigridMV/pen/NWeLdba"
+        },
+        {
+          "title": "Combinators",
+          "url": "https://sigridmv.github.io/imgwdd230/foto3.html"
+        },
+        { "title": "Tables", "url": "./week04/tablebuild.html" },
+        { "title": "Forms", "url": "./week04/form-start/index.html" }
       ]
     },
     {
-      "week": "Week 5",
+      "week": "Week 05",
       "links": [
         {
-          "url": "week05/prophets.html",
-          "title": "Prophets Activity"
+          "title": "Pseudo-elements",
+          "url": "https://codepen.io/SigridMV/pen/WNLmKqQ"
         },
-
-        {
-          "url": "week05/weather.html",
-          "title": "Weather Activity"
-        }
+        { "title": "JSON", "url": "./week05/new-ward-members.json" },
+        { "title": "The Fetch API", "url": "./week05/prophets.html" },
+        { "title": "Consuming a Weather API", "url": "./week05/weather.html" }
       ]
+    },
+    {
+      "week": "Week 06",
+      "links": []
     }
   ]
 }

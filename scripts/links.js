@@ -19,22 +19,30 @@ function displayLinks(weeks) {
         return;
     }
 
-    weeks.forEach(week => {
-        let weekDiv = document.createElement('div');
-        weekDiv.classList.add('week');
-       
-        let weekTitle = document.createElement('h3');
-        weekTitle.textContent = week.week;
-        weekDiv.appendChild(weekTitle);
+    let ul = document.createElement('ul');
+    container.appendChild(ul);
 
-        week.links.forEach(link => {
+    weeks.forEach(week => {
+        let li = document.createElement('li');
+        ul.appendChild(li);
+
+        let weekTitle = document.createElement('span');
+        weekTitle.textContent = week.week + ": ";
+        li.appendChild(weekTitle);
+
+        week.links.forEach((link, index) => {
             let anchor = document.createElement('a');
             anchor.href = baseURL + link.url;
             anchor.textContent = link.title;
-            weekDiv.appendChild(anchor);
+            anchor.target = "_blank";
+            li.appendChild(anchor);
+
+            
+            if (index !== week.links.length - 1) {
+                let separator = document.createTextNode(" | ");
+                li.appendChild(separator);
+            }
         });
-        
-        container.appendChild(weekDiv);
     });
 }
 
