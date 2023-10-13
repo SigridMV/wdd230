@@ -292,13 +292,17 @@ body.dark-mode .card h3 {
   background-color: #333;
 }
 
-.card .weather {
-  font-size: 0;
+.card.weather figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card .weather {
-  display: inline-block;
-  vertical-align: middle; 
-  font-size: 16px; 
-  margin: 0;
+.card.weather img, 
+.card.weather span, 
+.card.weather figcaption {
+  margin: 40px 5px;
 }
+
+
+
