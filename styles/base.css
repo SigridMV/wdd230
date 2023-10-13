@@ -291,3 +291,14 @@ body.dark-mode .card a {
 body.dark-mode .card h3 {
   background-color: #333;
 }
+
+.card figure {
+  font-size: 0;
+}
+
+.card figure {
+  display: inline-block;
+  vertical-align: middle; 
+  font-size: 16px; 
+  margin: 0;
+}
