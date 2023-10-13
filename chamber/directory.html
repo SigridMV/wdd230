@@ -59,16 +59,18 @@
         <li><a href="./index.html">Home</a></li>
         <li><a href="./discover.html">Discover</a></li>
         <li><a href="./join.html">Join</a></li>
-        <li><a href="#">Partners</a></li>
+        <li><a href="./directory.html">Directory</a></li>
         <li><a href="#">Contact us</a></li>
       </ul>
     </nav>
 
     <!-- MAIN -->
-    <main>
-
-      <button id="toggleView">Toggle View</button>
-      <div id="membersContainer"></div>
+    <main class="directory-main">
+      <div class="directory-button">
+      <button id="gridView">Grid</button>
+      <button id="listView">List</button>
+       </div>
+      <div id="membersContainer" class="directory-cards"></div>
 
     </main>
 
@@ -81,6 +83,7 @@
       <p id="lastModifiedDate">Last Modification:</p>
     </footer>
 
+    <script src="./scripts/toggleView.js"></script>
     <script src="./scripts/directory.js"></script>
     <script src="../scripts/getDates.js"></script>
     <script src="../scripts/hamburgerMenu.js"></script>

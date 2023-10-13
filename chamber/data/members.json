@@ -4,8 +4,8 @@
         "name": "Company A",
         "address": "123 A Street",
         "phone": "123-456-7890",
-        "website": "http://companya.com",
-        "image": "companyA.jpg",
+        "website": "http://companyaa.com",
+        "image": "images/company1.webp",
         "membershipLevel": "Gold",
         "additionalInfo": "Industry Leader in XYZ"
       },
@@ -13,8 +13,8 @@
         "name": "Company B",
         "address": "456 B Road",
         "phone": "987-654-3210",
-        "website": "http://companyb.com",
-        "image": "companyB.jpg",
+        "website": "http://companybb.com",
+        "image": "images/company2.webp",
         "membershipLevel": "Silver",
         "additionalInfo": "Specializes in ABC"
       },
@@ -23,8 +23,8 @@
         "name": "Company C",
         "address": "456 B Road",
         "phone": "987-654-3210",
-        "website": "http://companyb.com",
-        "image": "companyB.jpg",
+        "website": "http://companycc.com",
+        "image": "images/company3.webp",
         "membershipLevel": "Silver",
         "additionalInfo": "Specializes in ABC"
       },
@@ -33,8 +33,8 @@
         "name": "Company D",
         "address": "456 B Road",
         "phone": "987-654-3210",
-        "website": "http://companyb.com",
-        "image": "companyB.jpg",
+        "website": "http://companydd.com",
+        "image": "images/company4.webp",
         "membershipLevel": "Silver",
         "additionalInfo": "Specializes in ABC"
       },
@@ -43,8 +43,8 @@
         "name": "Company E",
         "address": "456 B Road",
         "phone": "987-654-3210",
-        "website": "http://companyb.com",
-        "image": "companyB.jpg",
+        "website": "http://companyee.com",
+        "image": "images/company5.webp",
         "membershipLevel": "Silver",
         "additionalInfo": "Specializes in ABC"
       },
@@ -53,8 +53,8 @@
         "name": "Company F",
         "address": "456 B Road",
         "phone": "987-654-3210",
-        "website": "http://companyb.com",
-        "image": "companyB.jpg",
+        "website": "http://companyff.com",
+        "image": "images/company6.webp",
         "membershipLevel": "Silver",
         "additionalInfo": "Specializes in ABC"
       },
@@ -63,8 +63,8 @@
         "name": "Company G",
         "address": "456 B Road",
         "phone": "987-654-3210",
-        "website": "http://companyb.com",
-        "image": "companyB.jpg",
+        "website": "http://companygg.com",
+        "image": "images/company7.webp",
         "membershipLevel": "Silver",
         "additionalInfo": "Specializes in ABC"
       },
@@ -73,12 +73,31 @@
         "name": "Company H",
         "address": "456 B Road",
         "phone": "987-654-3210",
-        "website": "http://companyb.com",
-        "image": "companyB.jpg",
+        "website": "http://companyhh.com",
+        "image": "images/company8.webp",
+        "membershipLevel": "Silver",
+        "additionalInfo": "Specializes in ABC"
+      },
+
+      {
+        "name": "Company I",
+        "address": "456 B Road",
+        "phone": "987-654-3210",
+        "website": "http://companyii.com",
+        "image": "images/company9.webp",
+        "membershipLevel": "Silver",
+        "additionalInfo": "Specializes in ABC"
+      },
+
+      {
+        "name": "Company J",
+        "address": "456 B Road",
+        "phone": "987-654-3210",
+        "website": "http://companyjj.com",
+        "image": "images/company10.webp",
         "membershipLevel": "Silver",
         "additionalInfo": "Specializes in ABC"
       }
    
-
     ]
   }
