@@ -32,7 +32,12 @@ function displayLinks(weeks) {
 
         week.links.forEach((link, index) => {
             let anchor = document.createElement('a');
-            anchor.href = baseURL + link.url;
+            
+            if (link.url.startsWith('http://') || link.url.startsWith('https://')) {
+                anchor.href = link.url;
+            } else {
+                anchor.href = baseURL + link.url;
+            }
             anchor.textContent = link.title;
             anchor.target = "_blank";
             li.appendChild(anchor);

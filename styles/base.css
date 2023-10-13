@@ -292,11 +292,11 @@ body.dark-mode .card h3 {
   background-color: #333;
 }
 
-.card figure {
+.card .weather {
   font-size: 0;
 }
 
-.card figure {
+.card .weather {
   display: inline-block;
   vertical-align: middle; 
   font-size: 16px; 
