@@ -539,3 +539,24 @@ input::placeholder{
   background-color: #f9f9f9;
 }
 
+/* DIRECTORY PAGE */
+
+.member-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 2px 2px 12px #aaa;
+  display: inline-block;  /* For grid view */
+}
+
+.member-list {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
