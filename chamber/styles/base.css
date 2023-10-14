@@ -560,10 +560,10 @@ input::placeholder{
   border-radius: 10px;
   text-align: center;
   transition: transform 0.2s;
-  
-  &:hover {
-    transform: scale(1.03);
-  }
+}
+
+.member-card:hover {
+  transform: scale(1.03);
 }
 
 .member-image {
