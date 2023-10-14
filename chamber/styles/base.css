@@ -553,7 +553,7 @@ input::placeholder{
 }
 
 .member-card {
-  min-width: 390px;
+  width: 100%;
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
@@ -573,8 +573,9 @@ input::placeholder{
 }
 
 .directory-list {
-  display: block;
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   
 }
 
