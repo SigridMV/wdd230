@@ -45,7 +45,7 @@
         "phone": "987-654-3210",
         "website": "http://companyee.com",
         "image": "images/company5.webp",
-        "membershipLevel": "Silver",
+        "membershipLevel": "Gold",
         "additionalInfo": "Industry Leader in XYZ"
       },
 
@@ -75,7 +75,7 @@
         "phone": "987-654-3210",
         "website": "http://companyhh.com",
         "image": "images/company8.webp",
-        "membershipLevel": "Silver",
+        "membershipLevel": "Gold",
         "additionalInfo": "Industry Leader in XYZ"
       },
 
@@ -95,7 +95,7 @@
         "phone": "987-654-3210",
         "website": "http://companyjj.com",
         "image": "images/company10.webp",
-        "membershipLevel": "Silver",
+        "membershipLevel": "Gold",
         "additionalInfo": "Industry Leader in XYZ"
       }
    
