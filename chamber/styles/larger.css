@@ -31,7 +31,7 @@
   }
 
   .content-wrapper {
-    flex-direction: row;
+    display: row;
     justify-content: center;
     align-items: center;
   }

@@ -175,26 +175,6 @@ nav ul {
   margin: 5px;
 }
 
-.title-box {
-  width: 100%; 
-  background-color: white;
-  margin: 20px 0;
-  border: 2px solid #ccc;
-  text-align: center;
-  cursor: pointer;
-}
-
-.title-box:hover {
-  background-color: #3dae2b;
-  color: #fff;
-}
-
-.title-box h2 {
-  font-size: 24px;
-  margin: 10px;
-  
-}
-
 /* C U R R E N T  E V E N T  S E C T I O N */
 
 .current-events {
