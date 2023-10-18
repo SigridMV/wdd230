@@ -2,7 +2,7 @@ const apiKey = 'd13ca374f2f79abbac373e89e9c0210e';
 const cities = ['London', 'Santiago', 'Dubai', 'New York', 'Madrid'];
 
 async function fetchWeatherData(city) {
-  const endpoint = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   try {
     const response = await fetch(endpoint);
