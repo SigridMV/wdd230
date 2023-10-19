@@ -10,7 +10,7 @@ async function fetchMembers() {
 }
 
 function displaySpotlights(members) {
-    if (!members) return;  // Return early if no members are passed in
+    if (!members) return;  
 
     const qualifiedMembers = members.filter(member => ['Silver', 'Gold'].includes(member.membershipLevel));
     const randomMembers = [];
