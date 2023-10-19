@@ -54,7 +54,7 @@ async function displayCityWeather(city) {
   }
 
   if (forecastData) {
-      for (let i = 0; i < 2; i++) {
+      for (let i = 1; i < 3; i++) {
           const forecast = forecastData[i];
           if (forecast) {
               const forecastDate = new Date(forecast.dt * 1000);
