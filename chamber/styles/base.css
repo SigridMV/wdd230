@@ -736,7 +736,7 @@ input::placeholder{
 
 
 .event-card {
-  height: 350px; 
+  height: 300px; 
   display: flex;
   flex-direction: column; 
   justify-content: space-between; 
@@ -745,7 +745,7 @@ input::placeholder{
 .event-card img {
   max-height: 250px;  
   object-fit: cover;
-  padding-bottom: 20px;
+  
 }
 
 
