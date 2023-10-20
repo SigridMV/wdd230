@@ -100,6 +100,12 @@ nav ul {
   
 }
 
+.navigation a.active {
+  background-color: #3dae2b;
+  color: #fff;
+  border-radius: 10px;
+}
+
 .navigation.show {
   display: block;
 }
