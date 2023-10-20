@@ -57,7 +57,15 @@
     },
     {
       "week": "Week 06",
-      "links": []
+      "links": [
+        {
+          "title": "Chamber Weather",
+          "url": "https://sigridmv.github.io/imgwdd230/foto7.html"
+        },
+        { "title": "Chamber Spotlights", "url": "https://sigridmv.github.io/imgwdd230/foto8.html" },
+        { "title": "Chamber Banner", "url": "https://sigridmv.github.io/imgwdd230/foto9.html" }
+
+      ]
     }
   ]
 }
